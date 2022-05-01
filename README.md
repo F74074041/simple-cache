@@ -9,11 +9,13 @@ input-->id[指定mapping function] -->算出tag/index/offset的長度-->指定�
 判斷是否有victim --no-->印出-1;
 ```
 - ### input
- > 第一行為cache size(KB)
- > 第二行為block size(Byte)
- > 第三行為cache的架構(0~2)，0 : direct-mapped， 1 : four-way set associative, 2 : fully associative
- > 第四行為演算法(0~1)，0 : FIFO, 1 : LRU
- > 剩餘的則是存取的資料。
+```
+ 第一行為cache size(KB)
+ 第二行為block size(Byte)
+ 第三行為cache的架構(0~2)，0 : direct-mapped， 1 : four-way set associative, 2 : fully associative
+ 第四行為演算法(0~1)，0 : FIFO, 1 : LRU
+ 剩餘的則是存取的資料。
+```
 
 - ### 存取的資料結構
 
